@@ -34,7 +34,7 @@ $data['items'] = array(
 function calculaimc($peso,$altura){    
   $conta1 = $altura*$altura;
   $conta2 = $peso/$conta1;    
-  $resultado = number_format($conta2, 1,',','0');
+  $resultado = number_format($conta2, 2,',','0');
   return $resultado;
 }
 function calculaidade($data){    
